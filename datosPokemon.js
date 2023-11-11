@@ -12,6 +12,7 @@ const consultarPokemon = (id, number) => {
         });
 };
 
+
 const btnSeleccionar = () =>
 {
     let primerPokemon = Math.round(Math.random() * 150);

@@ -13,6 +13,7 @@ const obtenerUsaurios = async () => {
     }
 };
 
+
 obtenerUsaurios();
 
 const pintarUsuarios = (data) =>
