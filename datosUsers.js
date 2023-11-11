@@ -4,7 +4,7 @@ const obtenerUsaurios = async () => {
     try {
         let response = await fetch(url);
         if (!response.ok) {
-            throw new Error("Ocurrio un error");
+            throw new Error("Ocurrio un error...");
         }
         let data = await response.json();
         pintarUsuarios(data);

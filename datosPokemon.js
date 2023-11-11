@@ -23,6 +23,7 @@ const btnSeleccionar = () =>
 
 btnSeleccionar();
 
+
 const lista = document.getElementById("listarpokemon");
 
 const pintarPokemon = (data, id) =>
